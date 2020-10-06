@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+  <title>[$title] [$env-capitalized]</title>
+</head>
+
+<body style="background: [$background-color]; color: [$text-color]; font-family: sans-serif">
+  <div style="text-align: center">
+    <img src="../images/logo.png" style="max-width: 200px; max-height: 200px; margin-bottom: 20px" />
+    <p style="margin-bottom: 40px">[$env-uppercase]</p>
+    <a style="
+          margin: 20px auto;
+          padding: 20px;
+          background: [$button-color];
+          color: [$button-text-color];
+          font-size: 22px;
+          font-weight: bold;
+          text-decoration-line: none;
+          display: block;
+          max-width: 80%;
+        "
+      href="itms-services://?action=download-manifest&url=https://repo.blinkar.cloud/[$name]/[$env]/manifest.plist">INSTALLA
+      APP iOS</a>
+
+    <a style="
+          margin: 20px auto;
+          padding: 20px;
+          background: [$button-color];
+          color: [$button-text-color];
+          font-size: 22px;
+          font-weight: bold;
+          text-decoration-line: none;
+          display: block;
+          max-width: 80%;
+        " href="https://repo.blinkar.cloud/[$name]/[$env]/app-release.apk">INSTALLA APP ANDROID</a>
+  </div>
+
+  <div style="text-align: center;">
+    <div style="margin: 40px auto 20px auto; display: inline-block; text-align: start;">
+      Per iOS, una volta installata l'app, andare in:<br />
+      <ol>
+        <li>Impostazioni</li>
+        <li>Generali</li>
+        <li>Gestione dispositivo</li>
+        <li>Autorizzare Metropolink srl</li>
+      </ol>
+    </div>
+  </div>
+</body>
+
+</html>
